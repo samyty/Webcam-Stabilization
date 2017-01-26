@@ -18,7 +18,7 @@ if size(bbox,1) == 0
     	continue     
 end
 
- # Facial Detection bbox
+# Facial Detection bbox
 img = insertShape(img, ‘Square’, bbox);
 title('Detected face');
 
